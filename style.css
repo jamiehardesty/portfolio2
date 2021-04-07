@@ -51,7 +51,7 @@ legend > h4 {
     margin-top: 20%;
 }
 img {
-    width: 100%;
+    width: 100% !important;
 }
 h6 {
     font-size: 1rem;
