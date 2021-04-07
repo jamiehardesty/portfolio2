@@ -47,9 +47,11 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
 }
-
 legend > h4 {
     margin-top: 20%;
+}
+img {
+    width: 100%;
 }
 h6 {
     font-size: 1rem;
