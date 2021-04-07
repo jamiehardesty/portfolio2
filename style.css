@@ -1,157 +1,223 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant:400');
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Assistant:400");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 
 body {
-    font-family: 'Assistant', sans-serif;
-    font-size: 62.5%;
-    width: 100%;
+  font-family: "Assistant", sans-serif;
+  font-size: 62.5%;
+  width: 100%;
 }
-body > * {  
-    font-size: 1rem;
-    line-height: 200%;
-    margin: 0 auto;
-    padding: 0 2%;
+body > * {
+  font-size: 1rem;
+  line-height: 200%;
+  margin: 0 auto;
+  padding: 0 2%;
 }
 header > * {
-    margin: 5%;
+  margin: 5%;
 }
-a, a:visited {
-    font-size: 1.25rem;
-    margin: 5%;
-    color:#000;
-    display: block;
-    text-decoration: none;
-    background-color: #fff;
-    border: 0px;
-    border-radius: 10px;
+a,
+a:visited {
+  font-size: 1.25rem;
+  margin: 5%;
+  color: #000;
+  display: block;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 10px;
 }
 a:hover {
-    background: hsla(333, 100%, 53%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    color: #fff;
+  background: hsla(333, 100%, 53%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  color: #fff;
 }
 nav {
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
 }
 ul {
-    width: 100%;
+  width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 800;
-    background: -webkit-linear-gradient(45deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
 }
 legend > h4 {
-    margin-top: 20%;
+  margin-top: 20%;
 }
 img {
-    width: 100% !important;
+  width: 100% !important;
 }
 h6 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 b {
-    font-weight: 900;
+  font-weight: 900;
 }
 i {
-    font-style: italic;
+  font-style: italic;
 }
 p {
-    margin: 5% 0;
+  margin: 5% 0;
 }
 span {
-    font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
 }
 p > span {
-    color: #C80000;
-    font-family: 'Assistant', sans-serif;
-    text-decoration: underline;
+  color: #c80000;
+  font-family: "Assistant", sans-serif;
+  text-decoration: underline;
 }
 header {
-    background: hsla(97, 68%, 90%, 1);
-    background: linear-gradient(270deg, hsla(97, 68%, 90%, 1) 14%, hsla(30, 82%, 91%, 1) 100%);
-    background: -moz-linear-gradient(270deg, hsla(97, 68%, 90%, 1) 14%, hsla(30, 82%, 91%, 1) 100%);
-    background: -webkit-linear-gradient(270deg, hsla(97, 68%, 90%, 1) 14%, hsla(30, 82%, 91%, 1) 100%);
-    border-bottom: #000 dotted 1px;
-    margin-bottom: 5%;
+  background: hsla(97, 68%, 90%, 1);
+  background: linear-gradient(
+    270deg,
+    hsla(97, 68%, 90%, 1) 14%,
+    hsla(30, 82%, 91%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    270deg,
+    hsla(97, 68%, 90%, 1) 14%,
+    hsla(30, 82%, 91%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(97, 68%, 90%, 1) 14%,
+    hsla(30, 82%, 91%, 1) 100%
+  );
+  border-bottom: #000 dotted 1px;
+  margin-bottom: 5%;
 }
-header, footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 main {
-    margin: 0 auto;
-    text-align: center;
-    background-color: #fff;
-    width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  width: 70%;
 }
 footer {
-    background: hsla(175, 68%, 90%, 1);
-    background: linear-gradient(90deg, hsla(175, 68%, 90%, 1) 14%, hsla(29, 78%, 91%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(175, 68%, 90%, 1) 14%, hsla(29, 78%, 91%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(175, 68%, 90%, 1) 14%, hsla(29, 78%, 91%, 1) 100%);
-    padding: 5% 0 10% 0;
-    margin-top: 5%;
-    border-top: 1px #000 dotted;
+  background: hsla(175, 68%, 90%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(175, 68%, 90%, 1) 14%,
+    hsla(29, 78%, 91%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(175, 68%, 90%, 1) 14%,
+    hsla(29, 78%, 91%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(175, 68%, 90%, 1) 14%,
+    hsla(29, 78%, 91%, 1) 100%
+  );
+  padding: 5% 0 10% 0;
+  margin-top: 5%;
+  border-top: 1px #000 dotted;
 }
 fieldset {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
-input, button, textarea {
-    border-radius: 5px;
-    border: 1px solid #C80000;
-    padding: 1%;
-    margin: 1% 1% 1rem 1%;
-    font-weight: 900;
-    height: 5rem;
-    font-size: 1.5rem;
-    text-align: center;
+input,
+button,
+textarea {
+  border-radius: 5px;
+  border: 1px solid #c80000;
+  padding: 1%;
+  margin: 1% 1% 1rem 1%;
+  font-weight: 900;
+  height: 5rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
-input, textarea {
-    background: -webkit-linear-gradient(45deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Assistant', sans-serif;
+input,
+textarea {
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Assistant", sans-serif;
 }
 label {
-    font-weight: 900;
+  font-weight: 900;
 }
 button {
-    background: hsla(333, 100%, 53%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    color: #fff;
-    border: 0px;
-    border-radius: 20px;
-    font-weight: 400;
+  background: hsla(333, 100%, 53%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  color: #fff;
+  border: 0px;
+  border-radius: 20px;
+  font-weight: 400;
 }
 button:hover {
-    background-color: #000;
-    background: -webkit-linear-gradient(45deg, #ff0f7b 0%, #f89c2a 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border: 1px solid #ff0f7b;
+  background-color: #000;
+  background: -webkit-linear-gradient(45deg, #ff0f7b 0%, #f89c2a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #ff0f7b;
 }
 form > p {
-	border: 1px solid black;
-	margin: 0 0.5%;
-	text-align: right;
-	color:#C80000; 
-    background-color: rgba(0, 0, 0,0.3);
-    border-radius: 10px;
+  border: 1px solid black;
+  margin: 0 0.5%;
+  text-align: right;
+  color: #c80000;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 label > span {
-    color: #C80000;
+  color: #c80000;
 }
 /* section#projects > h2 {
     margin: 10% 0;
@@ -160,140 +226,171 @@ label > span {
     border-radius: 20px;
 } */
 .firstBreak > article > a {
-    text-transform: uppercase;
-    background: hsla(333, 100%, 53%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    color: #fff;
-    border: 1px solid white;
+  text-transform: uppercase;
+  background: hsla(333, 100%, 53%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  color: #fff;
+  border: 1px solid white;
 }
 .firstBreak > article > a:hover {
-    background: white;
-    color: #000;
-    border: 1px solid #C80000;
+  background: white;
+  color: #000;
+  border: 1px solid #c80000;
 }
 a + p {
-    background: white;
-    color: #000;
-    border-radius: 10px;
-    border: 1px dotted #C80000;
+  background: white;
+  color: #000;
+  border-radius: 10px;
+  border: 1px dotted #c80000;
 }
-a + p, .firstBreak > article > a {
-    padding: 0;
-    margin: 5%;
+a + p,
+.firstBreak > article > a {
+  padding: 0;
+  margin: 5%;
 }
 .firstBreak > article {
-    border: 1px solid #C80000;
-    margin: 5%;
-    border-radius: 10px;
+  border: 1px solid #c80000;
+  margin: 5%;
+  border-radius: 10px;
 }
 section#projects > h2 {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: white;
-    font-size: 2rem;
-    margin: 15% 0 0 0;
-    padding: 5% 0;
-    display: block;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: #fff;
-    border: 0px;
-    border-radius: 10px;
-    background: hsla(333, 100%, 53%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  font-size: 2rem;
+  margin: 15% 0 0 0;
+  padding: 5% 0;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  background: hsla(333, 100%, 53%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+  color: #fff;
 }
-@media screen and (min-width: 650px){
-    header {
-        height: 150px;
-    }
-    nav, ul, li, header > section {
-        margin: auto 0;
-        padding: 0;
-    }
-    header nav ul li {
-        width: 100%;
-    }
-    header nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .group {
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    footer, 
-    footer > section > nav > ul > li > a,
-    footer > section > h5, 
-    footer > section > h6 
-    {   margin: 0;
-        margin-top: 1%;
-        padding: 1% 0;
-    }
-    footer {
-        margin-top: 5%
-    }
-    footer > section > nav > ul > li {
-        margin: 2%;
-        width: 80%;
-    }
-    footer > section > nav > ul {
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto;
-    }
-    .firstBreak > article > p > span {
-        display: block;
-        border: 1px solid #C80000;
-        border-radius: 10px;
-        margin: 0 20%;
-        text-decoration: none;
-    }
-    .firstBreak {
-        flex: 1;
-    }
-    .firstBreak > article > h3 {
-        margin: 5% 0;
-    }
+@media screen and (min-width: 650px) {
+  img {
+    width: 100% !important;
+  }
+  header {
+    height: 150px;
+  }
+  nav,
+  ul,
+  li,
+  header > section {
+    margin: auto 0;
+    padding: 0;
+  }
+  header nav ul li {
+    width: 100%;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .group {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+  footer,
+  footer > section > nav > ul > li > a,
+  footer > section > h5,
+  footer > section > h6 {
+    margin: 0;
+    margin-top: 1%;
+    padding: 1% 0;
+  }
+  footer {
+    margin-top: 5%;
+  }
+  footer > section > nav > ul > li {
+    margin: 2%;
+    width: 80%;
+  }
+  footer > section > nav > ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .firstBreak > article > p > span {
+    display: block;
+    border: 1px solid #c80000;
+    border-radius: 10px;
+    margin: 0 20%;
+    text-decoration: none;
+  }
+  .firstBreak {
+    flex: 1;
+  }
+  .firstBreak > article > h3 {
+    margin: 5% 0;
+  }
 }
 
-@media screen and (min-width: 1024px){
-    header {
-        height: 100px;
-    }
-    header > * {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    header nav {
-        width: 60%;
-    }
-    p {
-        margin: 0;
-        padding: 2.5%;
-    }
-    section#projects > h2 {
-        margin: 2.5%;
-        padding: 2.5%;
-    }
-    legend > p {
-        width: 100%;
-    }
-    footer > section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        margin: 0 auto;
-    }
-    footer > section > nav {
-        width: 60%;
-    }
+@media screen and (min-width: 1024px) {
+  header {
+    height: 100px;
+  }
+  header > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header nav {
+    width: 60%;
+  }
+  p {
+    margin: 0;
+    padding: 2.5%;
+  }
+  section#projects > h2 {
+    margin: 2.5%;
+    padding: 2.5%;
+  }
+  legend > p {
+    width: 100%;
+  }
+  footer > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer > section > nav {
+    width: 60%;
+  }
 }
