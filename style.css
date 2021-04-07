@@ -47,12 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
 }
-section#projects > h2 {
-    margin: 10% 0;
-    padding: 10%;
-    border: 1px solid red;
-    border-radius: 20px;
-}
+
 legend > h4 {
     margin-top: 20%;
 }
@@ -70,6 +65,11 @@ p {
 }
 span {
     font-family: 'Parisienne', cursive;
+}
+p > span {
+    color: #C80000;
+    font-family: 'Assistant', sans-serif;
+    text-decoration: underline;
 }
 header {
     background: hsla(97, 68%, 90%, 1);
@@ -90,10 +90,6 @@ main {
     background-color: #fff;
     width: 70%;
 }
-#projects article {
-    display: flex; /* without, inherits <main> styles */
-    flex-direction: row; /* without, <p> styles are not inherited */
-}
 footer {
     background: hsla(175, 68%, 90%, 1);
     background: linear-gradient(90deg, hsla(175, 68%, 90%, 1) 14%, hsla(29, 78%, 91%, 1) 100%);
@@ -110,7 +106,7 @@ fieldset {
 }
 input, button, textarea {
     border-radius: 5px;
-    border: 1px solid red;
+    border: 1px solid #C80000;
     padding: 1%;
     margin: 1% 1% 1rem 1%;
     font-weight: 900;
@@ -148,23 +144,19 @@ form > p {
 	border: 1px solid black;
 	margin: 0 0.5%;
 	text-align: right;
-	color:red; 
+	color:#C80000; 
     background-color: rgba(0, 0, 0,0.3);
     border-radius: 10px;
 }
 label > span {
-    color: red;
+    color: #C80000;
 }
-.group {
-    margin: 0 auto;
-}
-.group > * {
-    display: flex;
-    justify-content: center;
-    margin: 2.5%;
-    flex: 1;
-}
-
+/* section#projects > h2 {
+    margin: 10% 0;
+    padding: 10%;
+    border: 1px solid #C80000;
+    border-radius: 20px;
+} */
 .firstBreak > article > a {
     text-transform: uppercase;
     background: hsla(333, 100%, 53%, 1);
@@ -177,19 +169,41 @@ label > span {
 .firstBreak > article > a:hover {
     background: white;
     color: #000;
+    border: 1px solid #C80000;
 }
-.firstBreak {
-    display: flex;
-    flex-direction: column;
+a + p {
+    background: white;
+    color: #000;
+    border-radius: 10px;
+    border: 1px dotted #C80000;
+}
+a + p, .firstBreak > article > a {
+    padding: 0;
+    margin: 5%;
 }
 .firstBreak > article {
-    height: 250px;
-    display: flex;
-    flex-direction: column !important;
-    padding: 2.5% 0;
+    border: 1px solid #C80000;
+    margin: 5%;
+    border-radius: 10px;
 }
-/* ! use @media queries */
-
+section#projects > h2 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    font-size: 2rem;
+    margin: 15% 0 0 0;
+    padding: 5% 0;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    background: hsla(333, 100%, 53%, 1);
+    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    color: #fff;
+}
 @media screen and (min-width: 650px){
     header {
         height: 150px;
@@ -212,13 +226,6 @@ label > span {
         display: flex;
         flex-direction: row;
     }
-    .firstBreak > article {
-        height: 300px;
-    }
-    section#projects > h2 {
-        margin: 5%;
-        padding: 2.5%;
-    }
     footer, 
     footer > section > nav > ul > li > a,
     footer > section > h5, 
@@ -238,6 +245,19 @@ label > span {
         display: flex;
         flex-direction: row;
         margin: 0 auto;
+    }
+    .firstBreak > article > p > span {
+        display: block;
+        border: 1px solid #C80000;
+        border-radius: 10px;
+        margin: 0 20%;
+        text-decoration: none;
+    }
+    .firstBreak {
+        flex: 1;
+    }
+    .firstBreak > article > h3 {
+        margin: 5% 0;
     }
 }
 
