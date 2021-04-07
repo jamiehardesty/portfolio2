@@ -72,7 +72,7 @@ h6 {
 legend > h4 {
   margin-top: 20%;
 }
-img {
+.mage {
   width: 100% !important;
 }
 h6 {
@@ -298,7 +298,7 @@ section#projects > h2 {
   color: #fff;
 }
 @media screen and (min-width: 650px) {
-  img {
+  .mage {
     width: 100% !important;
   }
   header {
