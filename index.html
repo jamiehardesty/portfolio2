@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Jamie Hardesty's portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jamie, SWE</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+        <header>
+        <section>
+            <h1>
+            Jamie <span>H</span>ardesty
+            </h1>
+            <nav>
+                <ul> 
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#connect">Contact Me</a></li>
+                </ul>
+            </nav>
+        </section>
+        </header>
+        <main>
+        <section>
+            <h2>
+                An introduction:
+            </h2>
+            <article>
+                <h3>
+                    Who am I? 
+                </h3>
+                <p>
+                    I am an LGBTQ+ identifying cis-female of 2 or more races. My pronouns are she/her. In 2010, I left the city of Chicago for Silicon Valley. Currently, I'm in Engineering Immersion at Thinkful. Also, I'm blissfully unaware of what makes me special. Maybe my contribution to diversity metrics?
+                </p>
+            </article>
+            <article>
+                <h3>
+                    My passion for the web:
+                </h3>
+                <p>
+                    It started in my childhood. I was treated as a neutral entity by most netizens, and that made me feel accepted for the first time.
+                </p>
+                <h3>
+                    How do I define a great team or programmer?
+                </h3>
+                <p>
+                    In my eyes, anyone who actively self-teaches themselves new things to positively influence the world is great. Therefore, a great team, in my opinion, improves the world or internet culture. Thankfully, there is plenty of trust & safety, escalation, anti-evil, and anti-fraud teams.
+                </p>
+                <h3>
+                    My personality outside of coding:
+                </h3>
+                <p>
+                    I hike. I visit rose gardens. I prefer cats over dogs. I have over 15 types of tea. My favorite colors are pink, red, and gold. I have a very distinct lewk. I try to be plant-based. 
+                </p><h3>
+                    Services I can provide:
+                </h3>
+                <p>
+                    I am adept at HTML5 and CSS3. Intermediate with JS ES2015 or ES6. I write my tests in npm nyc, mocha, chai. I can make web requests, utilize axios, create promises, and write asynchronous code. I also have a working knowledge of LESS.css, Bootstrap, and React. I aspire to add go lang, Java, and SQL to my skillset.
+                </p>
+            </article>
+        </section>
+        <section id="projects">
+            <h2>
+                My Portfolio
+            </h2>
+            <div class="group">
+                <div class="firstBreak">
+                        <article>
+                            <h3>
+                                Decoder Ring
+                            </h3>
+                            <p>
+                                I wrote the Js for encoding & decoding caesar shifts, a polybius square, and a substitution cipher requiring a key. I also wrote the unit tests.
+                            </p>
+                            <a href="https://github.com/jamiehardesty/decoder_ring" target="_blank">Github repository</a>
+                        </article>
+                        <article>
+                            <h3>
+                                Unit Tests
+                            </h3>
+                            <p>
+                                A small sample of the unit testing I'm capable of with npm nyc, mocha, and chai.
+                            </p>
+                            <a href="https://github.com/jamiehardesty/unit-testing" target="_blank">Github repository</a>
+                        </article>
+                    <article>
+                        <h3>
+                            Local Library
+                        </h3>
+                        <p>
+                            I wrote the Js for querying books, authors, and accounts- of which were an array of objects between 300-7000 lines.
+                        </p>
+                        <a href="https://github.com/jamiehardesty/local_library" target="_blank">Github repository</a>
+                    </article>
+                </div>
+                <div class="firstBreak">
+                    <article>
+                        <h3>
+                            FCC Tribute Page
+                        </h3>
+                        <p>
+                            This webpage is dedicated to Coding with Klossy which passes Free Code Camp's criteria for a tribute page. 9 user stories were met.
+                        </p>
+                        <a href="https://codepen.io/jhardesty/full/YzwmZLB" target="_blank">View on CodePen.io</a>
+                    </article>
+                    <article>
+                        <h3>
+                            An active form
+                        </h3>
+                        <p>
+                            A colorful contact form with transparent gradients for background color. All form submissions are sent to my e-mail.
+                        </p>
+                        <a href="https://jamiehardesty.github.io/form/" target="_blank">View on Github.io</a>
+                    </article>
+                    <article>
+                        <h3>
+                            July Challenge
+                        </h3>
+                        <p>
+                            A webpage with a transparent red overlay, with a button that utilizes Javascript to change the text and query a random amount of winners to receive an eBook.
+                        </p>
+                        <a href="https://codepen.io/jhardesty/full/vYGBLGj" target="_blank">View on CodePen.io</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="connect">
+            <hr>
+            <form action="https://formspree.io/f/xzbyplrd" method="post">
+                <fieldset>
+                    <legend>
+                        <h4>
+                            Contact Jamie
+                        </h4>
+                        <b>E-mail:</b> jamie [dot] jh [at] iCloud [dot] com
+                        or use the form below:
+                        &nbsp;
+                    </legend>
+                    <label for="name">Your name<span>*</span></label>
+                    <input name="name" id="name" type="text" placeholder="Enter your name" pattern="([a-zA-Z])" required>
+                    <label for="email">Your e-mail<span>*</span></label>
+                    <input name="email" id="email" type="email" placeholder="Enter your e-mail" pattern="([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required>
+                    <label for="message">Your message<span>*</span></label>
+                    <textarea name="message" id="message" placeholder="Enter a message here."></textarea>
+                    <button id="reset" value="reset" type="reset">reset form</button>
+                    <button id="submit" value="submit" type="submit" onclick="alert('💌: Hi! You clicked me! Please note: only valid messages are sent. The ambiguity is intentional. This alert does not mean your message was valid or sent successfully. Thank you for your participation & use of this form~🎵')">💌 send 💌</button>
+                </fieldset>
+                <p><span>*</span> indicates a field is required. </p>
+            </form>
+        </section>
+        </main>
+        <footer>
+        <section>
+            <h5>
+            Let's connect!
+            </h5>
+            <nav>
+                <ul>
+                    <li><a href="https://github.com/jamiehardesty" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/jamiejeanh/" target="_blank">LinkedIn</a></li>
+                </ul>
+            </nav>
+            <h6>2021 &copy; Jamie Hardesty</h6>
+        </section>
+        </footer>
+  </body>
+</html>
